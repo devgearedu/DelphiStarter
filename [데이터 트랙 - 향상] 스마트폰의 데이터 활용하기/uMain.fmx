@@ -1,0 +1,70 @@
+object DeviceInfoForm: TDeviceInfoForm
+  Left = 0
+  Top = 0
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 1920
+  FormFactor.Height = 1022
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ToolBar1: TToolBar
+    Size.Width = 384.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      Align = Contents
+      Size.Width = 384.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.HorzAlign = Center
+      Text = #49828#47560#53944#54256' '#51221#48372' '#51312#54924
+    end
+    object Button1: TButton
+      Align = Right
+      Anchors = []
+      Margins.Right = 5.000000000000000000
+      Position.X = 331.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'refreshtoolbuttonbordered'
+      TabOrder = 1
+      Text = 'Get Device Information'
+      OnClick = Button1Click
+    end
+  end
+  object ListBox1: TListBox
+    Align = Top
+    Position.Y = 48.000000000000000000
+    Size.Width = 384.000000000000000000
+    Size.Height = 200.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 2
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 384.000000000000000000
+    Viewport.Height = 200.000000000000000000
+    object ListBoxItem1: TListBoxItem
+      StyleLookup = 'listboxitemrightdetail'
+      TabOrder = 0
+      Text = #44592#44592' '#47784#45944
+    end
+    object ListBoxItem2: TListBoxItem
+      Position.Y = 44.000000000000000000
+      StyleLookup = 'listboxitemrightdetail'
+      TabOrder = 1
+      Text = 'OS '#51333#47448
+    end
+    object ListBoxItem3: TListBoxItem
+      Position.Y = 88.000000000000000000
+      StyleLookup = 'listboxitemrightdetail'
+      TabOrder = 2
+      Text = 'OS '#48260#51204
+    end
+  end
+end

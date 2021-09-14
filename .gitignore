@@ -67,3 +67,5 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+*/Android/Debug/
+/\[IDE 트랙- 기초\] 개발환경 사용법 및 아주 간단한 애플리케이션 만들기/hello_word/Android/Debug

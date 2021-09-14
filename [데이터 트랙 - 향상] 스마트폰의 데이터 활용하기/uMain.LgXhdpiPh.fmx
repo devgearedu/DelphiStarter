@@ -1,0 +1,19 @@
+inherited DeviceInfoForm_LgXhdpiPh: TDeviceInfoForm_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Label1: TLabel
+      Size.Width = 450.000000000000000000
+    end
+    inherited Button1: TButton
+      Position.X = 397.000000000000000000
+    end
+  end
+  inherited ListBox1: TListBox
+    Size.Width = 450.000000000000000000
+    Viewport.Width = 450.000000000000000000
+    Viewport.Height = 200.000000000000000000
+  end
+end
